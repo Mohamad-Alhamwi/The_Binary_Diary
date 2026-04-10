@@ -45,25 +45,22 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        docs: false,
         blog: {
           blogTitle: "Cybersecurity Blog",
           blogDescription: "A blog focusing heavily on binary analysis, reverse engineering, and low-level topics.",
           showReadingTime: true,
           feedOptions: {
-            type: ['rss', 'atom'],
+            type: ['rss', 'atom', 'json'],
             xslt: true,
           },
+          blogSidebarTitle: "All posts",
+          blogSidebarCount: "ALL",
+          // showLastUpdateTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+            'TODO:UPDATE',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -92,33 +89,22 @@ const config = {
         },
         items: [
           {
-            to: '/about',
-            label: 'About Me',
-            position: 'left',
-          },
-          {
-            to: '/contact',
-            label: 'Contact',
-            position: 'left',
-          },
-          {
-            to: '/home',
-            label: 'Home',
-            position: 'left',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            label: 'Knowledge Base',
-            position: 'left',
-          },
-          {
             to: '/blog',
             label: 'Blog',
             position: 'left',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: '/tags',
+            label: 'Tags',
+            position: 'left',
+          },
+          {
+            to: '/about',
+            label: 'About Me',
+            position: 'left',
+          },
+          {
+            href: 'https://github.com/Mohamad-Alhamwi/The_Binary_Diary',
             label: 'GitHub',
             position: 'right',
           },

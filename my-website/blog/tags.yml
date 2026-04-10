@@ -1,9 +1,14 @@
-research:
-  label: Research
-  permalink: /research
-  description: Research tag description
+my-research:
+  label: My-Research
+  permalink: /my-research
+  description: My-Research tag description
 
 writeups:
   label: Writeups
   permalink: /writeups
   description: Writeups tag description
+
+theory:
+  label: Theory
+  permalink: /theory
+  description: Theory tag description
