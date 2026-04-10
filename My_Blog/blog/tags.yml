@@ -1,14 +1,19 @@
 my-research:
-  label: My-Research
+  label: .my-research
   permalink: /my-research
-  description: My-Research tag description
+  description: A collection of my own research, where I document experiments, ideas, and things I am exploring.
 
 writeups:
-  label: Writeups
+  label: .writeups
   permalink: /writeups
-  description: Writeups tag description
+  description: A collection of writeups covering CTF challenges, HTB machines, exploits, and other hands-on security work.
 
 theory:
-  label: Theory
+  label: .theory
   permalink: /theory
-  description: Theory tag description
+  description: A collection of theoretical concepts where I break down and explain ideas and topics in depth.
+
+ctf:
+  label: ctf
+  permalink: /ctf
+  description: Tag description

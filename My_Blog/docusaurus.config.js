@@ -92,9 +92,10 @@ const config = {
             to: '/blog',
             label: 'Blog',
             position: 'left',
+            activeBaseRegex: '^/blog(?!/tags).*',
           },
           {
-            to: '/tags',
+            to: '/blog/tags',
             label: 'Tags',
             position: 'left',
           },
