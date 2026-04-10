@@ -85,7 +85,7 @@ const config = {
         title: 'The Binary Diary',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
@@ -112,7 +112,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} The Binary Diary. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} The Binary Diary. Powered by Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
