@@ -16,6 +16,7 @@
  */
 
 export function createSlug(text) {
+    /** NOTE FOR ME: Beware that the 'Removes special characters' step strips leading dots, which may have implications later. **/
     return text
         .replace(/([a-z0-9])([A-Z])/g, "$1-$2") // camelCase → kebab-case
         .toLowerCase()
