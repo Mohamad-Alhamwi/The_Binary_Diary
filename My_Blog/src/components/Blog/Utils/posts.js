@@ -43,7 +43,7 @@ export function getBlogMetadata() {
         .keys()
         .map((key) => {
             const post = posts(key);
-            const dir = key.replace(/\/index\.mdx?$/, "").replace(/^\.\//, "");
+            const dir = key.replace(/\/index\.mdx?$/, "").replace(/^\.\//, "").replace(/\.mdx?$/, "");
 
             let permalink;
             if (post.frontMatter.slug) {
