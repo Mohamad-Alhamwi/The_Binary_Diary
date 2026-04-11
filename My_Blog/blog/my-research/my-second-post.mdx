@@ -5,6 +5,32 @@ tags: [my-research]
 date: 2027-04-09
 ---
 
+import Card from "@site/src/components/Card";
+import CardFooter from "@site/src/components/Card/CardFooter";
+import CardImage from "@site/src/components/Card/CardImage";
+
+<div className="container">
+   <div className="row padding-bottom--xl">
+      <div className="col col--6">
+         <div className="">
+            <Card>
+               <CardImage cardImageUrl="/img/default.jpg" />
+               <CardFooter
+               style={{ backgroundColor: "#5cbdb9", color: "#eeff00ff" }}
+               className="text--center"
+               >
+               {/*<div className="button-group button-group--block">
+                  <button className="button button--primary button--sm">Like</button>
+                  <button className="button button--secondary button--sm">Comment</button>
+                  <button className="button button--info button--sm">Share</button>
+               </div>*/}
+               </CardFooter>
+            </Card>
+         </div>
+      </div>
+   </div>
+</div>
+
 My blog is amazing. I really truly recommend it
 
 {/* truncate */}
