@@ -12,7 +12,7 @@ import pluginTagRoute from "./plugins/docusaurus-plugin-tag-route/index.cjs";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'The Binary Diary',
-  tagline: 'A journey of a thousand miles begins with a single step',
+  tagline: 'Welcome to my cybersecurity diary, where I document my research journey and share insights and practical guides while breaking down technical concepts along the way.',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
