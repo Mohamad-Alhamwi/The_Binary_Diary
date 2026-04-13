@@ -3,7 +3,7 @@ import { ChevronsRight } from "lucide-react";
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import HomeCards from '@site/src/components/Home/HomeCards';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -38,7 +38,7 @@ export default function Home() {
       description="A cybersecurity blog focusing heavily on binary analysis, reverse engineering, and low-level topics. <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <HomeCards />
       </main>
     </Layout>
   );
