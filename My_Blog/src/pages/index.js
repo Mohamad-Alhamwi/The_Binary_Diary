@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import { ChevronsRight } from "lucide-react";
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
@@ -19,8 +20,9 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/blog">
+            Read the Blog
+            <ChevronsRight size={18} className={styles.arrowIcon} />
           </Link>
         </div>
       </div>
