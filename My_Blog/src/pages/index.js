@@ -38,7 +38,9 @@ export default function Home() {
       description="A cybersecurity blog focusing heavily on binary analysis, reverse engineering, and low-level topics. <head />">
       <HomepageHeader />
       <main>
-        <HomeCards />
+        <div className="margin-top--xl">
+          <HomeCards />
+        </div>
       </main>
     </Layout>
   );
