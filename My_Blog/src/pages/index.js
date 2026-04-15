@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomeCards from '@site/src/components/Home/HomeCards';
+import ScrollToTopButton from '@site/src/components/ScrollToTopButton';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -40,6 +41,7 @@ export default function Home() {
       <main>
         <div className="margin-top--xl">
           <HomeCards />
+          <ScrollToTopButton />
         </div>
       </main>
     </Layout>
