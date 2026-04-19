@@ -68,7 +68,7 @@ const FormattedDate = ({ date, layout }) => {
 export default function PostCard({
     post,
     layout = "big",
-    defaultImage = "/img/post_default_background.png",
+    defaultImage = "/img/tag_post_cards/default_fallback.png",
 }) {
     const { permalink, image, title, description, date } = post;
 
