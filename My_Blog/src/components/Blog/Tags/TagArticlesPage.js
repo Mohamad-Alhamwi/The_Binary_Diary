@@ -96,7 +96,7 @@ export default function TagArticlesPage() {
             </h1>
             <div className={styles.postRow}>
                 {taggedPosts.map((post) => (
-                    <PostCard key={post.permalink} post={post} />
+                    <PostCard key={post.permalink} post={post} currentTag={displayTag} />
                 ))}
             </div>
         </div>

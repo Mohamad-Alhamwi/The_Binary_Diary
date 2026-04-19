@@ -23,6 +23,7 @@ import CardImage from "@site/src/components/Card/CardImage";
 import Link from "@docusaurus/Link";
 import PropTypes from "prop-types";
 import styles from "./styles.module.css";
+import DEFAULT_TAG_IMAGES from "../../../data/default_tag_images.js";
 
 /**
  * Renders a formatted date string.
@@ -67,10 +68,19 @@ const FormattedDate = ({ date, layout }) => {
 
 export default function PostCard({
     post,
+    currentTag,
     layout = "big",
     defaultImage = "/img/tag_post_cards/default_fallback.png",
 }) {
     const { permalink, image, title, description, date } = post;
+
+    const matched = DEFAULT_TAG_IMAGES.find(
+        (item) => item.tag.toLowerCase() === currentTag?.toLowerCase()
+    );
+
+    if (matched) {
+        defaultImage = matched.image;
+    }
 
     if (layout === "small") {
         return (
