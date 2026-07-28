@@ -24,6 +24,7 @@ import TOCInline from "@theme/TOCInline";
 import Trees from "@site/src/components/Trees";
 import Folder from "@site/src/components/Trees/Folder";
 import File from "@site/src/components/Trees/File";
+import Intro from '@site/src/components/Blog/PostIntro';
 
 import ProjectSetup, {
   EmptyFolder,
@@ -61,6 +62,7 @@ export default {
   TLDR,
   TOCInline,
   Trees,
+  Intro,
   // Add the lazy loading and async decoding attributes to all images
   // img: (props) => (
   //   <img {...props} data-title="Christophe" loading="lazy" decoding="async" />
