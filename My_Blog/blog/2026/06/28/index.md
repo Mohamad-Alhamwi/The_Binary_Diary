@@ -12,9 +12,11 @@ tags: [ghidra]
 
 ![Meet Ghidra: a versatile software reverse engineering (SRE) framework with powerful capabilities.](/img/blog_posts/meet-ghidra.png)
 
-> **In this article,**
->
-> We'll learn what Ghidra is, how to install it on Linux, and how to configure it for easier launching.
+<Intro>
+## In This Article
+
+In this article, we'll learn what Ghidra is, how to install it on Linux, and how to configure it for easier launching.
+</Intro>
 
 You are probably a beginner reverse engineer who has just started your journey and wants to learn your first tool, a CTF player who wants to tackle binary and reverse engineering challenges, or a reverse engineer who wants to get familiar with another reverse engineering platform besides IDA Pro or Binja, or perhaps someone else entirely. Whoever you are, you have come to the right place.
 
