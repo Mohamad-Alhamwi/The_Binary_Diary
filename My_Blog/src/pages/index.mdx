@@ -1,0 +1,21 @@
+---
+title: A personal cybersecurity blog focusing heavily on low-level topics.
+hide_table_of_contents: true
+---
+
+import ScrollToTopButton from "@site/src/components/ScrollToTopButton";
+import LatestPosts from "@site/src/components/Blog/LatestPosts";
+import HomeCards from "@site/src/components/HomeCards";
+import MainTags from "@site/src/components/MainTags";
+import HeroSection from "@site/src/components/Blog/HeroSection";
+
+<HeroSection />
+
+<main>
+  <div className="margin-top--xl">
+    <HomeCards />
+    <LatestPosts count={9} />
+    <MainTags />
+    <ScrollToTopButton />
+    </div>
+</main>
