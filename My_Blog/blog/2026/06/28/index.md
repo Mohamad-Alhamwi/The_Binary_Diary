@@ -4,13 +4,13 @@ title: Meet Ghidra
 date: 2026-06-28
 description: "Meet Ghidra: a versatile software reverse engineering (SRE) framework with powerful capabilities."
 authors: [mooda-tnt]
-image: /img/blog_posts/meet-ghidra.png
+image: /img/blog_posts/ghidra_meet-ghidra.png
 series: "The Ghidra Journey — Part I: Foundations"
 mainTag: ghidra
 tags: [ghidra]
 ---
 
-![Meet Ghidra: a versatile software reverse engineering (SRE) framework with powerful capabilities.](/img/blog_posts/meet-ghidra.png)
+![Meet Ghidra: a versatile software reverse engineering (SRE) framework with powerful capabilities.](/img/blog_posts/ghidra_meet-ghidra.png)
 
 <Intro>
 ## In This Article

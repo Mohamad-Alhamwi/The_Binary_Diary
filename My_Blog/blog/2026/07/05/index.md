@@ -4,13 +4,13 @@ title: Create Your First Project
 date: 2026-07-05
 description: "A journey of a thousand miles begins with a single step. Create your first project and set forth on your Ghidra journey."
 authors: [mooda-tnt]
-image: /img/blog_posts/create-your-first-project.png
+image: /img/blog_posts/ghidra_create-your-first-project.png
 series: "The Ghidra Journey — Part I: Foundations"
 mainTag: ghidra
 tags: [ghidra]
 ---
 
-![A journey of a thousand miles begins with a single step. Create your first project and set forth on your Ghidra journey.](/img/blog_posts/create-your-first-project.png)
+![A journey of a thousand miles begins with a single step. Create your first project and set forth on your Ghidra journey.](/img/blog_posts/ghidra_create-your-first-project.png)
 
 <Intro>
 ## In This Article

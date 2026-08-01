@@ -4,13 +4,13 @@ title: "The CodeBrowser Desktop: A Brief Tour"
 date: 2026-07-12
 description: "Familiarize yourself with the CodeBrowser Desktop and the key windows that make reverse engineering possible."
 authors: [mooda-tnt]
-image: /img/blog_posts/the-code-browser-desktop-a-brief-tour.png
+image: /img/blog_posts/ghidra_the-code-browser-desktop-a-brief-tour.png
 series: "The Ghidra Journey — Part I: Foundations"
 mainTag: ghidra
 tags: [ghidra]
 ---
 
-![Familiarize yourself with the CodeBrowser Desktop and the key windows that make reverse engineering possible.](/img/blog_posts/the-code-browser-desktop-a-brief-tour.png)
+![Familiarize yourself with the CodeBrowser Desktop and the key windows that make reverse engineering possible.](/img/blog_posts/ghidra_the-code-browser-desktop-a-brief-tour.png)
 
 <Intro>
 ## In This Article
