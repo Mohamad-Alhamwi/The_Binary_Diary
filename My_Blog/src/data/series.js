@@ -5,9 +5,9 @@ const SERIES_DATA = [
     image: "/img/series/ghidra-part-I-foundations.png",
   },
   {
-    name: "End your VI suffering",
+    name: "End your VI suffering — Part I: Basics",
     description: "Explore and dip your toes into the world of one of the most versatile text editors out there: VI",
-    image: "/img/series/vi.png",
+    image: "/img/series/vi-part-I-basics.png",
   },
 ];
 
