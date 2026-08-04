@@ -7,7 +7,7 @@ authors: [mooda-tnt]
 image: /img/blog_posts/ghidra_meet-ghidra.png
 series: "The Ghidra Journey — Part I: Foundations"
 mainTag: ghidra
-tags: [ghidra]
+tags: [ghidra, tools]
 ---
 
 ![Meet Ghidra: a versatile software reverse engineering (SRE) framework with powerful capabilities.](/img/blog_posts/ghidra_meet-ghidra.png)
@@ -18,25 +18,25 @@ tags: [ghidra]
 In this article, we'll learn what Ghidra is, how to install it on Linux, and how to configure it for easier launching.
 </Intro>
 
+<!-- truncate -->
+
 You are probably a beginner reverse engineer who has just started your journey and wants to learn your first tool, a CTF player who wants to tackle binary and reverse engineering challenges, or a reverse engineer who wants to get familiar with another reverse engineering platform besides IDA Pro or Binja, or perhaps someone else entirely. Whoever you are, you have come to the right place.
 
 In this collection of Ghidra blog series, I am going to provide you with the essential information to master the versatile reverse engineering framework Ghidra. So buckle up, and let us get started.
 
-<AlertBox variant="note" title="Note:">
-This collection of blog series is designed to be self-contained, so you don't need any additional resources to follow along. However, if you'd like a more comprehensive reference, I highly recommend **The Ghidra Book: The Definitive Guide by Chris Eagle and Kara Nance**.
+<AlertBox variant="note" title="Book Recommendation">
+This collection of blog series is designed to be self-contained, so you don't need any additional resources to follow along. However, if you'd like a more comprehensive reference, I highly recommend **_The Ghidra Book: The Definitive Guide_** by Chris Eagle and Kara Nance.
 </AlertBox>
-
-<!-- truncate -->
 
 ## First things first, what is Ghidra?
 
 Developed by the National Security Agency (NSA), Ghidra is a fully-fledged Software Reverse Engineering (SRE) platform and is arguably the freely available open source competitor to IDA Pro. Among the many tools it contains, its interactive disassembler and decompiler make it stand out as an important static analysis tool. Furthermore, its extensibility, such as its ability to allow developers to write their own scripts, enables them to enhance its ecosystem, making the reverse engineering process more efficient.
 
-Now that we have got a brief introduction to Ghidra, we can move on and install it on our machine. And by the way, if you are wondering how to pronounce its name, it is pronounced _Gee-dra_ with a hard **G**.
+Now that we have got a brief introduction to Ghidra, we can move on and install it on our machine. And by the way, if you are wondering how to pronounce its name, it is pronounced "_Gee-dra_" with a hard **G**.
 
 ## Installing Ghidra
 
-<AlertBox variant="info" title="Info:">
+<AlertBox variant="info" title="Info">
 Before delving into the installation process of Ghidra, it is worth mentioning that if you are already using or planning to use REMnux or FLARE-VM, Ghidra comes preinstalled in both of these distributions.
 </AlertBox>
 
@@ -78,7 +78,7 @@ The best solution is to create a symbolic link in a directory that already exist
 sudo ln -s /opt/ghidra/ghidraRun /usr/local/bin/ghidra
 ```
 
-<AlertBox variant="tip" title="Tip:">
+<AlertBox variant="tip" title="Tip">
 By convention, it is recommended to use `/usr/local/bin/` because it is specifically intended for executables that the local system administrator installs manually.
 </AlertBox>
 
@@ -94,7 +94,7 @@ You will be greeted by the **Ghidra User Agreement**, as shown in the following 
 
 Just click **I Agree**, and now you are ready to embark on your fun Ghidra journey.
 
-<AlertBox variant="info" title="Info:">
+<AlertBox variant="info" title="Info">
 When launching Ghidra for the first time, you might run into the following error:
 > ERROR: The 'java' command could not be found in your PATH or with JAVA_HOME.
 Please refer to the Getting Started document's Troubleshooting section.

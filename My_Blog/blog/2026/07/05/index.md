@@ -7,7 +7,7 @@ authors: [mooda-tnt]
 image: /img/blog_posts/ghidra_create-your-first-project.png
 series: "The Ghidra Journey — Part I: Foundations"
 mainTag: ghidra
-tags: [ghidra]
+tags: [ghidra, tools]
 ---
 
 ![A journey of a thousand miles begins with a single step. Create your first project and set forth on your Ghidra journey.](/img/blog_posts/ghidra_create-your-first-project.png)
@@ -29,7 +29,7 @@ Once it disappears, you will see two windows on your screen: the **Tip of the Da
 
 ![Ghidra's tip of the day window.](./images/ghidra-tip-of-the-day.png)
 
-<AlertBox variant="tip" title="Tip:">
+<AlertBox variant="tip" title="Tip">
 I bet you want to uncheck the **Show Tips on Startup?** checkbox at the bottom of the dialog window. But if you ever want it back, you can re-enable it through the **Help** menu.
 </AlertBox>
 
@@ -57,7 +57,7 @@ Now, let us add our first binary to the project by going to **File** → **Impor
 
 ![Import window.](./images/import-window.png)
 
-<AlertBox variant="tip" title="Tip:">
+<AlertBox variant="tip" title="Tip">
 Navigating and working efficiently is an important skill to have, especially in tedious or repetitive reverse engineering workflows. Ghidra provides plenty of keyboard shortcuts to make our lives easier. We will learn many of them throughout this journey. Our first shortcut is **I**, which opens the file explorer and allows us to navigate to and import our file.
 </AlertBox>
 
