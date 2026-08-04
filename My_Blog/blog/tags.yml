@@ -6,4 +6,9 @@ ghidra:
 vi:
   label: "Vi"
   permalink: "/tags/vi"
-  description: "Tutorials, Tips, and configurations for the Vi/Vim editor."
+  description: "Tutorials, tips, and configurations for the Vi/Vim editor."
+
+tools:
+  label: "Tools"
+  permalink: "/tags/tools"
+  description: "Articles, tutorials, and much more covering the day-to-day tools and utilities used in cybersecurity."
