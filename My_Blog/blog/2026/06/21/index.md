@@ -7,7 +7,7 @@ authors: [mooda-tnt]
 image: /img/blog_posts/vi_introduction-to-vi.png
 series: "End your VI suffering — Part I: Basics"
 mainTag: vi
-tags: [vi, tools]
+tags: [vi, tools, tutorials]
 ---
 
 ![Get started with the notorious text editor, vi.](/img/blog_posts/vi_introduction-to-vi.png)
