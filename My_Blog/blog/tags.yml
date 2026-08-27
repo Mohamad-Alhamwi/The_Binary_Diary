@@ -12,3 +12,18 @@ tools:
   label: "Tools"
   permalink: "/tags/tools"
   description: "Articles, tutorials, and much more covering the day-to-day tools and utilities used in cybersecurity."
+
+tutorials:
+  label: "Tutorials"
+  permalink: "/tags/tutorials"
+  description: "Step-by-step guided pathways for mastering a specific tool or skill in cybersecurity."
+
+write-ups:
+  label: "Write-ups"
+  permalink: "/tags/write-ups"
+  description: "Detailed articles on technical topics and thorough CTF walkthroughs."
+
+ctf:
+  label: "CTF"
+  permalink: "/tags/ctf"
+  description: "Write-ups and walkthroughs of CTFs I participated in and challenges I solved on CTF platforms.."
