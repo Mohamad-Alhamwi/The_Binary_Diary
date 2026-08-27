@@ -7,7 +7,7 @@ authors: [mooda-tnt]
 image: /img/blog_posts/ghidra_create-your-first-project.png
 series: "The Ghidra Journey — Part I: Foundations"
 mainTag: ghidra
-tags: [ghidra, tools, tutorials]
+tags: [ghidra, tutorials]
 ---
 
 ![A journey of a thousand miles begins with a single step. Create your first project and set forth on your Ghidra journey.](/img/blog_posts/ghidra_create-your-first-project.png)

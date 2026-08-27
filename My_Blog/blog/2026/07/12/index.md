@@ -7,7 +7,7 @@ authors: [mooda-tnt]
 image: /img/blog_posts/ghidra_the-code-browser-desktop-a-brief-tour.png
 series: "The Ghidra Journey — Part I: Foundations"
 mainTag: ghidra
-tags: [ghidra, tools, tutorials]
+tags: [ghidra, tutorials]
 ---
 
 ![Familiarize yourself with the CodeBrowser Desktop and the key windows that make reverse engineering possible.](/img/blog_posts/ghidra_the-code-browser-desktop-a-brief-tour.png)
